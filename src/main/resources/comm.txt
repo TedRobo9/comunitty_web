@@ -1,0 +1,1 @@
+docker run --name tomcat -v /usr/local/tomcat/webapps:/usr/local/tomcat/webapps -d -p 80:8080 --link uacity:mysql tomcat:7.0.68-jre7
