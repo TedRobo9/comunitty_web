@@ -14,6 +14,11 @@ import org.springframework.context.annotation.Configuration;
 @EnableConfigurationProperties(value = {ConnectionSettings.class})
 public class ApplicationConfigurations {
 
+//    @Bean
+//    public Filter webFilter() {
+//        return new ShallowEtagHeaderFilter();
+//    }
+
     public static void main( String[] args ) {
         SpringApplication.run(ApplicationConfigurations.class, args);
     }

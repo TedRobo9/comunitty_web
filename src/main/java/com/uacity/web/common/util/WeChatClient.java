@@ -25,7 +25,7 @@ public class WeChatClient {
 
     private static String appId;
     private static String appSecret;
-    private static String token;
+    private static String token = "uacitytest";
 
     private static String accessToken = null;
     private static String ticket = null;
