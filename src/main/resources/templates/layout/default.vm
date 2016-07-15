@@ -2,19 +2,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>UACity Admin</title>
     <meta name="description" content="">
-    <meta name="author" content="templatemo">
-    <!--
-    Visual Admin Template
-    http://www.templatemo.com/preview/templatemo_455_visual_admin
-    -->
-    <link rel="stylesheet" href="#springUrl('/static/lib/weui.css')">
+    <meta name="author" content="Ted Huang">
+    <link rel="stylesheet" href="#springUrl('/static/lib/weui.min.css')">
     <link rel="stylesheet" href="#springUrl('/static/css/jquery-weui.css')">
 </head>
-<body>
-<div class="templatemo-flex-row">
+<body ontouchstart>
+
     <div>
         #parse("/templates/_header.vm")
     </div>
@@ -30,7 +26,7 @@
         #parse("/templates/_footer.vm")
     </div>
 
-</div>
+
 </body>
 <script src="#springUrl('/static/lib/jquery-2.1.4.js')"></script>
 <script src="#springUrl('/static/js/jquery-weui.js')"></script>

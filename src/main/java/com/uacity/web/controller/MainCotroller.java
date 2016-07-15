@@ -13,13 +13,19 @@ import java.util.List;
 import java.util.Map;
 
 @Controller  
-@RequestMapping("/menu")
-public class MenuCotroller {
+@RequestMapping("/")
+public class MainCotroller {
 	
 	@Autowired
 	private MenuService menuService;
 	
 	List<Menu> datalist = null;
+
+	@RequestMapping(value="index" , method = RequestMethod.GET)
+	public String index(){
+		System.out.println("index>>>>>>>>>>>>>>>>");
+		return "index";
+	}
 
 	@RequestMapping(value="/list" , method = RequestMethod.GET)
 	@ResponseBody 
