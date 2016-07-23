@@ -114,37 +114,38 @@
         </a>
     </div>
 </div>
-<div class="weui-row weui-no-gutter">
-    <div class="weui-col-33">大牌抢购</div>
-    <div class="weui-col-33">外卖满减</div>
-    <div class="weui-col-33">每日福利</div>
-</div>
 
-<div class="weui_tabbar">
-    <a href="javascript:;" class="weui_tabbar_item weui_bar_item_on">
-        <div class="weui_tabbar_icon">
-            <img src="#springUrl('/static/images/icon/home.jpg')" alt="">
-        </div>
-        <p class="weui_tabbar_label">首页</p>
-    </a>
-    <a href="javascript:;" class="weui_tabbar_item">
-        <div class="weui_tabbar_icon">
-            <img src="#springUrl('/static/images/icon/store.jpg')" alt="">
-        </div>
-        <p class="weui_tabbar_label">商铺</p>
-    </a>
-    <a href="javascript:;" class="weui_tabbar_item">
-        <div class="weui_tabbar_icon">
-            <img src="#springUrl('/static/images/icon/car.jpg')" alt="">
-        </div>
-        <p class="weui_tabbar_label">服务</p>
-    </a>
-    <a href="javascript:;" class="weui_tabbar_item">
-        <div class="weui_tabbar_icon">
-            <img src="#springUrl('/static/images/icon/my.jpg')" alt="">
-        </div>
-        <p class="weui_tabbar_label">我的</p>
-    </a>
+<div class="weui_panel weui_panel_access">
+    <div class="weui_panel_bd">
+        <a href="javascript:void(0);" class="weui_media_box weui_media_appmsg">
+            <div class="weui_media_hd">
+                <img class="weui_media_appmsg_thumb" src="/static/images/icon/store.jpg" alt="">
+            </div>
+            <div class="weui_media_bd">
+                <h4 class="weui_media_title">喜士多</h4>
+                <p class="weui_media_desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</p>
+            </div>
+        </a>
+        <a href="javascript:void(0);" class="weui_media_box weui_media_appmsg">
+            <div class="weui_media_hd">
+                <img class="weui_media_appmsg_thumb" src="/static/images/icon/store.jpg" alt="">
+            </div>
+            <div class="weui_media_bd">
+                <h4 class="weui_media_title">百慕大</h4>
+                <p class="weui_media_desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</p>
+            </div>
+        </a>
+        <a href="javascript:void(0);" class="weui_media_box weui_media_appmsg">
+            <div class="weui_media_hd">
+                <img class="weui_media_appmsg_thumb" src="/static/images/icon/store.jpg" alt="">
+            </div>
+            <div class="weui_media_bd">
+                <h4 class="weui_media_title">麦当劳</h4>
+                <p class="weui_media_desc">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</p>
+            </div>
+        </a>
+    </div>
+    <a class="weui_panel_ft" href="javascript:void(0);">查看更多</a>
 </div>
 
 

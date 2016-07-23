@@ -27,6 +27,12 @@ public class MainCotroller {
 		return "index";
 	}
 
+	@RequestMapping(value="store" , method = RequestMethod.GET)
+	public String store(){
+		System.out.println("index>>>>>>>>>>>>>>>>");
+		return "store_detail";
+	}
+
 	@RequestMapping(value="/list" , method = RequestMethod.GET)
 	@ResponseBody 
 	public Map<String, Object> list(){ 

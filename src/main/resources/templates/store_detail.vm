@@ -1,0 +1,63 @@
+#set($layout = "/layout/blank.vm")
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>UA City</title>
+    <meta name="description" content="">
+    <meta name="author" content="Ted Huang">
+    <link rel="stylesheet" href="#springUrl('/static/lib/weui.min.css')">
+    <link rel="stylesheet" href="#springUrl('/static/css/jquery-weui.min.css')">
+</head>
+<body ontouchstart>
+
+    <div class="weui_navbar">
+        <div class="weui_navbar_item ">
+            <a>返回</a>
+        </div>
+        <div class="weui_navbar_item">
+            <a>二</a>
+        </div>
+        <div class="weui_navbar_item">
+            <a>收藏</a>
+        </div>
+    </div>
+
+    <div class="weui_tab_bd">
+
+    </div>
+
+    <div class="weui_tabbar">
+        <a href="javascript:;" class="weui_tabbar_item weui_bar_item_on">
+            <div class="weui_tabbar_icon">
+                <img src="./images/icon_nav_button.png" alt="">
+            </div>
+            <p class="weui_tabbar_label">点赞</p>
+        </a>
+        <a href="javascript:;" class="weui_tabbar_item">
+            <div class="weui_tabbar_icon">
+                <img src="./images/icon_nav_msg.png" alt="">
+            </div>
+            <p class="weui_tabbar_label">评价</p>
+        </a>
+        <a href="javascript:;" class="weui_tabbar_item">
+            <div class="weui_tabbar_icon">
+                <img src="./images/icon_nav_article.png" alt="">
+            </div>
+            <p class="weui_tabbar_label">购物车</p>
+        </a>
+        <a href="javascript:;" class="weui_tabbar_item">
+            <div class="weui_tabbar_icon">
+                <img src="./images/icon_nav_cell.png" alt="">
+            </div>
+            <p class="weui_tabbar_label">我</p>
+        </a>
+    </div>
+
+
+</body>
+<script src="#springUrl('/static/lib/jquery-2.1.4.js')"></script>
+<script src="#springUrl('/static/js/jquery-weui.js')"></script>
+</html>
