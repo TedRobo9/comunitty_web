@@ -7,7 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="Ted Huang">
     <link rel="stylesheet" href="#springUrl('/static/lib/weui.min.css')">
-    <link rel="stylesheet" href="#springUrl('/static/css/jquery-weui.css')">
+    <link rel="stylesheet" href="#springUrl('/static/css/jquery-weui.min.css')">
+    <link rel="stylesheet" href="#springUrl('/static/css/icon.css')">
 </head>
 <body ontouchstart>
 

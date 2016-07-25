@@ -30,7 +30,7 @@ public class MainCotroller {
 	@RequestMapping(value="store" , method = RequestMethod.GET)
 	public String store(){
 		System.out.println("index>>>>>>>>>>>>>>>>");
-		return "store_detail";
+		return "store_list";
 	}
 
 	@RequestMapping(value="/list" , method = RequestMethod.GET)
