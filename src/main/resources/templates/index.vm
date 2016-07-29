@@ -12,6 +12,25 @@
     <link rel="stylesheet" href="#springUrl('/static/css/jquery-weui.css')">
     <link rel="stylesheet" href="#springUrl('/static/css/icono.min.css')">
     <style type="text/css">
+        .weui-row {
+            margin-top: 10px;
+        }
+        [class*="weui-col-"] {
+            height: 105px;
+            line-height: 20px;
+            text-align: center;
+        }
+        .uac_grid_icon {
+            width: 50px;
+            height: 50px;
+            margin: 0 auto;
+        }
+        .uac_grid_icon img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
         span{
             display: inline-block;
             margin: 1px;
@@ -52,27 +71,6 @@
     </form>
     <a href="javascript:" class="weui_search_cancel" id="search_cancel">取消</a>
 </div>
-<style>
-    .weui-row {
-        margin-top: 10px;
-    }
-    [class*="weui-col-"] {
-        height: 105px;
-        line-height: 20px;
-        text-align: center;
-    }
-    .uac_grid_icon {
-        width: 50px;
-        height: 50px;
-        margin: 0 auto;
-    }
-    .uac_grid_icon img {
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-
-</style>
 
 <div class="weui-row weui-no-gutter">
     <div class="weui-col-25">
