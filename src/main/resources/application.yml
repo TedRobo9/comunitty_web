@@ -1,8 +1,5 @@
 jdbc:
   driver: com.mysql.jdbc.Driver
-  url: jdbc:mysql://123.207.120.134:3306/ua_city
-  username: root
-  password: wapwap12
   maxActive: 3
   maxIdle: 30
   minIdle: 5
